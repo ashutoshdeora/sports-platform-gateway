@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "sportsplatformgateway",
+    "packageName": "com.sports.platform.gateway",
+    "packageFolder": "com/sports/platform/gateway",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "hi",
+      "mr",
+      "ta"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "NmFmMWYwY2ExNDQ0MDJhMDM3NTFkODU5ZTBlMGM1M2U0ZWU3NDIzMDFmMTRjZjQ2ODhlYzcwMTRiZmEwODI3N2I2MTlmZDQ2Y2EwYTFmYTA0MDJhNjNmMDY5MzA1MzkxNWE3MGM5OTkxNjBhNzBiMDhjZTQzMzYxN2ZkNWZiMjM="
+  },
+  "git-provider": "GitHub",
+  "git-company": "ashutoshdeora",
+  "repository-name": "sports-platform-gateway"
+}
